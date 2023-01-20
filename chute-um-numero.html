@@ -19,12 +19,15 @@ while(tentativas <=3){
 var chute = parseInt(prompt("Digite seu chute!"));
 
 if(chute == numeroPensado) {
-    mostra("Você acertou!");
+    mostra("Você ACERTOU! =D O número pensado era " + numeroPensado);
+    break;
 } 
 else {
-    mostra("Você errou, tente outra vez. tentativas restantes:" + tentativas);
+    mostra("Você ERROU =(");
 }
     tentativas++;
 }
+
+mostra("FIM!")
 
 </script>
